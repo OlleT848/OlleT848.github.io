@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-style: Arial, Georgia;
+}
+body{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+}
+h1{
+    margin-top: 16px;
+    margin-bottom: -5%;
+}
+h2{
+   margin-top: 10%; 
+}
+nav{
+    position: absolute;
+    left: 85%;
+    bottom: 12%;
+}
+nav h2{
+    margin-bottom: 5%;
+}
+nav img{
+     width: 200px;
+    height: 180px;
+    border: solid #000000;
+    transition: transform 0.5s ease;
+}
+nav img:hover{
+    transform: scale(1.2);
+}
+img{
+    width: 200px;
+    height: 180px;
+}
+.Uppdateringar_bild{
+    position: relative;
+    bottom: 633px;
+    right: 30%;
+}
+.Operativsystem_bild{
+    position: relative;
+    bottom: 390px;
+    right: 52.5%;
+}
+.Säkerhet_bild{
+    position: relative;
+    bottom: 150px;
+    right: 74.5%;
+}

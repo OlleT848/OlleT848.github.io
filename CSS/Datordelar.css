@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-style: Arial, Georgia;
+}
+body{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+}
+nav{
+    position: absolute;
+    left: 85%;
+    bottom: 12%;
+}
+nav h2{
+    margin-bottom: 5%;
+}
+.Tips{
+    position:relative;
+    right: 33%;
+}
+img{
+    width: 200px;
+    height: 180px;
+    border: solid #000000;
+    transition: transform 0.5s ease;
+}
+img:hover{
+    transform: scale(1.2);
+}
+nav img{
+     width: 200px;
+    height: 180px;
+    border: solid #000000;
+    transition: transform 0.5s ease;
+}
+nav img:hover{
+    transform: scale(1.2);
+}
+h1{
+    margin-bottom: -5%;
+    margin-top: -3%;
+}
+h2{
+    margin-top: 10%;
+}

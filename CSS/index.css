@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-style: Arial, Georgia;
+}
+body{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+}
+h2{
+    margin-bottom: 5%;
+    font-size: 200%;
+}
+a{
+    color: #0000ff;
+}
+img{
+    width: 420px;
+    height: 380px;
+    transition: transform 0.4s;
+    border-radius: 20%;
+    filter: grayscale(100%)
+}
+img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.Items{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.Användning text{
+    position: relative;
+    text-align: center;
+}
+.Datordelar text{
+    position: relative;
+    text-align: center;
+}
+.Historia text{
+    position: relative;
+    text-align: center;
+}
