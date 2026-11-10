@@ -35,15 +35,15 @@ img:hover{
     justify-content: center;
     gap: 10%;
 }
-.Användning text{
+#Användning #text{
     position: relative;
     text-align: center;
 }
-.Datordelar text{
+#Datordelar #text{
     position: relative;
     text-align: center;
 }
-.Historia text{
+#Historia #text{
     position: relative;
     text-align: center;
 }
